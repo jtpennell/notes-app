@@ -385,7 +385,7 @@ configure:13646: $? = 0
 configure:13646: result: yes
 configure:13652: checking for fullfsync
 configure:13652: gcc -o conftest -fPIC -O2 -fvisibility=hidden -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1   conftest.c  >&5
-/usr/bin/ld: /tmp/ccNbh646.o: in function `main':
+/usr/bin/ld: /tmp/cc0RmvDF.o: in function `main':
 conftest.c:(.text.startup+0x5): undefined reference to `fullfsync'
 collect2: error: ld returned 1 exit status
 configure:13652: $? = 1
@@ -567,7 +567,7 @@ configure:13852: $? = 0
 configure:13852: result: yes
 configure:13859: checking for library containing readline
 configure:13889: gcc -o conftest -fPIC -O2 -fvisibility=hidden -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1   conftest.c  >&5
-/usr/bin/ld: /tmp/ccWzpIqq.o: in function `main':
+/usr/bin/ld: /tmp/cckABbCZ.o: in function `main':
 conftest.c:(.text.startup+0x5): undefined reference to `readline'
 collect2: error: ld returned 1 exit status
 configure:13889: $? = 1
@@ -639,7 +639,7 @@ conftest.c:35:6: warning: conflicting types for built-in function 'ceil'; expect
       |      ^~~~
 conftest.c:1:1: note: 'ceil' is declared in header '<math.h>'
     1 | /* confdefs.h */
-/usr/bin/ld: /tmp/ccB5WQ1S.o: in function `main':
+/usr/bin/ld: /tmp/ccEbRmHn.o: in function `main':
 conftest.c:(.text.startup+0x5): undefined reference to `ceil'
 collect2: error: ld returned 1 exit status
 configure:14342: $? = 1
@@ -725,7 +725,7 @@ configure:14597: $? = 0
 configure:14597: result: yes
 configure:14602: checking for library containing deflate
 configure:14632: gcc -o conftest -fPIC -O2 -fvisibility=hidden -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1   conftest.c -lm  >&5
-/usr/bin/ld: /tmp/cchnVJ9q.o: in function `main':
+/usr/bin/ld: /tmp/ccbZsS8i.o: in function `main':
 conftest.c:(.text.startup+0x5): undefined reference to `deflate'
 collect2: error: ld returned 1 exit status
 configure:14632: $? = 1

@@ -16,16 +16,16 @@ checking for ttyname_r()... yes
 creating Makefile
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/io-console-0.8.1/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-sxchwy sitelibdir\=./.gem.20250729-17724-sxchwy clean
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-xz4f8s sitelibdir\=./.gem.20250730-7976-xz4f8s clean
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/io-console-0.8.1/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-sxchwy sitelibdir\=./.gem.20250729-17724-sxchwy
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-xz4f8s sitelibdir\=./.gem.20250730-7976-xz4f8s
 compiling console.c
 linking shared-object io/console.so
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/io-console-0.8.1/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-sxchwy sitelibdir\=./.gem.20250729-17724-sxchwy install
-/usr/bin/install -c -m 0755 console.so ./.gem.20250729-17724-sxchwy/io
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-xz4f8s sitelibdir\=./.gem.20250730-7976-xz4f8s install
+/usr/bin/install -c -m 0755 console.so ./.gem.20250730-7976-xz4f8s/io
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/io-console-0.8.1/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-sxchwy sitelibdir\=./.gem.20250729-17724-sxchwy clean
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-xz4f8s sitelibdir\=./.gem.20250730-7976-xz4f8s clean

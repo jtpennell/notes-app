@@ -7,16 +7,16 @@ checking for whether -std=c99 is accepted as CFLAGS... yes
 creating Makefile
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-d7kzd4 sitelibdir\=./.gem.20250729-17724-d7kzd4 clean
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-xh3owt sitelibdir\=./.gem.20250730-7976-xh3owt clean
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-d7kzd4 sitelibdir\=./.gem.20250729-17724-d7kzd4
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-xh3owt sitelibdir\=./.gem.20250730-7976-xh3owt
 compiling bootsnap.c
 linking shared-object bootsnap/bootsnap.so
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-d7kzd4 sitelibdir\=./.gem.20250729-17724-d7kzd4 install
-/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20250729-17724-d7kzd4/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-xh3owt sitelibdir\=./.gem.20250730-7976-xh3owt install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20250730-7976-xh3owt/bootsnap
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.6/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-d7kzd4 sitelibdir\=./.gem.20250729-17724-d7kzd4 clean
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-xh3owt sitelibdir\=./.gem.20250730-7976-xh3owt clean

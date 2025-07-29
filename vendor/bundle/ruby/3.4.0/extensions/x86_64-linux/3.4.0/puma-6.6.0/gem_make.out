@@ -25,18 +25,18 @@ checking for Random.bytes... yes
 creating Makefile
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/puma-6.6.0/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-f97d9q sitelibdir\=./.gem.20250729-17724-f97d9q clean
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-fdy233 sitelibdir\=./.gem.20250730-7976-fdy233 clean
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/puma-6.6.0/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-f97d9q sitelibdir\=./.gem.20250729-17724-f97d9q
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-fdy233 sitelibdir\=./.gem.20250730-7976-fdy233
 compiling http11_parser.c
 compiling mini_ssl.c
 compiling puma_http11.c
 linking shared-object puma/puma_http11.so
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/puma-6.6.0/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-f97d9q sitelibdir\=./.gem.20250729-17724-f97d9q install
-/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20250729-17724-f97d9q/puma
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-fdy233 sitelibdir\=./.gem.20250730-7976-fdy233 install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20250730-7976-fdy233/puma
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/puma-6.6.0/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-f97d9q sitelibdir\=./.gem.20250729-17724-f97d9q clean
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-fdy233 sitelibdir\=./.gem.20250730-7976-fdy233 clean

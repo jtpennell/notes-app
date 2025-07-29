@@ -3,17 +3,17 @@ current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/debu
 creating Makefile
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-dnzgbh sitelibdir\=./.gem.20250729-17724-dnzgbh clean
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-knmihw sitelibdir\=./.gem.20250730-7976-knmihw clean
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-dnzgbh sitelibdir\=./.gem.20250729-17724-dnzgbh
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-knmihw sitelibdir\=./.gem.20250730-7976-knmihw
 compiling debug.c
 compiling iseq_collector.c
 linking shared-object debug/debug.so
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-dnzgbh sitelibdir\=./.gem.20250729-17724-dnzgbh install
-/usr/bin/install -c -m 0755 debug.so ./.gem.20250729-17724-dnzgbh/debug
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-knmihw sitelibdir\=./.gem.20250730-7976-knmihw install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20250730-7976-knmihw/debug
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-dnzgbh sitelibdir\=./.gem.20250729-17724-dnzgbh clean
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-knmihw sitelibdir\=./.gem.20250730-7976-knmihw clean

@@ -4,16 +4,16 @@ checking for rb_ext_ractor_safe() in ruby.h... yes
 creating Makefile
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/erb-5.0.2/ext/erb/escape
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-t9bh7x sitelibdir\=./.gem.20250729-17724-t9bh7x clean
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-y8mv5u sitelibdir\=./.gem.20250730-7976-y8mv5u clean
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/erb-5.0.2/ext/erb/escape
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-t9bh7x sitelibdir\=./.gem.20250729-17724-t9bh7x
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-y8mv5u sitelibdir\=./.gem.20250730-7976-y8mv5u
 compiling escape.c
 linking shared-object erb/escape.so
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/erb-5.0.2/ext/erb/escape
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-t9bh7x sitelibdir\=./.gem.20250729-17724-t9bh7x install
-/usr/bin/install -c -m 0755 escape.so ./.gem.20250729-17724-t9bh7x/erb
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-y8mv5u sitelibdir\=./.gem.20250730-7976-y8mv5u install
+/usr/bin/install -c -m 0755 escape.so ./.gem.20250730-7976-y8mv5u/erb
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/erb-5.0.2/ext/erb/escape
-make DESTDIR\= sitearchdir\=./.gem.20250729-17724-t9bh7x sitelibdir\=./.gem.20250729-17724-t9bh7x clean
+make DESTDIR\= sitearchdir\=./.gem.20250730-7976-y8mv5u sitelibdir\=./.gem.20250730-7976-y8mv5u clean
