@@ -1,24 +1,32 @@
-# README
+# NotesApp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple Ruby on Rails application that lets users save notes written in Markdown with a live preview before saving.
 
-Things you may want to cover:
+## Ruby Version
 
-* Ruby version
+- Ruby 3.4.4
 
-* System dependencies
+## System Dependencies
 
-* Configuration
+- Rails 7.1.5.1
+- SQLite3 (default development database)
+- Tailwind CSS (via Rails gem)
+- Marked.js (for client-side Markdown rendering)
 
-* Database creation
+## Configuration
 
-* Database initialization
+- No extra configuration required beyond standard Rails setup.
+- Tailwind CSS is included for styling.
+- Marked.js is loaded via CDN in `application.html.erb` for Markdown preview
 
-* How to run the test suite
+## Database Setup
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+bin/rails db:setup
+bin/rails db:migrate
+```
+## Host / Testing
+```bash
+bundle install
+bin/rails server -p 3000
+```
