@@ -6,10 +6,10 @@ checking for altzone in time.h with -Werror... no
 creating Makefile
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250730-7976-4db7s0 sitelibdir\=./.gem.20250730-7976-4db7s0 clean
+make DESTDIR\= sitearchdir\=./.gem.20250730-42187-jak7dv sitelibdir\=./.gem.20250730-42187-jak7dv clean
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250730-7976-4db7s0 sitelibdir\=./.gem.20250730-7976-4db7s0
+make DESTDIR\= sitearchdir\=./.gem.20250730-42187-jak7dv sitelibdir\=./.gem.20250730-42187-jak7dv
 compiling date_core.c
 compiling date_parse.c
 compiling date_strftime.c
@@ -17,8 +17,8 @@ compiling date_strptime.c
 linking shared-object date_core.so
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250730-7976-4db7s0 sitelibdir\=./.gem.20250730-7976-4db7s0 install
-/usr/bin/install -c -m 0755 date_core.so ./.gem.20250730-7976-4db7s0
+make DESTDIR\= sitearchdir\=./.gem.20250730-42187-jak7dv sitelibdir\=./.gem.20250730-42187-jak7dv install
+/usr/bin/install -c -m 0755 date_core.so ./.gem.20250730-42187-jak7dv
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250730-7976-4db7s0 sitelibdir\=./.gem.20250730-7976-4db7s0 clean
+make DESTDIR\= sitearchdir\=./.gem.20250730-42187-jak7dv sitelibdir\=./.gem.20250730-42187-jak7dv clean

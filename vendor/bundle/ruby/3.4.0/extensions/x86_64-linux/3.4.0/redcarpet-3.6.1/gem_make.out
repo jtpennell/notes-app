@@ -3,10 +3,10 @@ current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/redc
 creating Makefile
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/redcarpet-3.6.1/ext/redcarpet
-make DESTDIR\= sitearchdir\=./.gem.20250730-7976-o9fuqh sitelibdir\=./.gem.20250730-7976-o9fuqh clean
+make DESTDIR\= sitearchdir\=./.gem.20250730-42187-64x9vy sitelibdir\=./.gem.20250730-42187-64x9vy clean
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/redcarpet-3.6.1/ext/redcarpet
-make DESTDIR\= sitearchdir\=./.gem.20250730-7976-o9fuqh sitelibdir\=./.gem.20250730-7976-o9fuqh
+make DESTDIR\= sitearchdir\=./.gem.20250730-42187-64x9vy sitelibdir\=./.gem.20250730-42187-64x9vy
 compiling autolink.c
 compiling buffer.c
 buffer.c: In function ‘bufcstr’:
@@ -34,8 +34,8 @@ compiling stack.c
 linking shared-object redcarpet.so
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/redcarpet-3.6.1/ext/redcarpet
-make DESTDIR\= sitearchdir\=./.gem.20250730-7976-o9fuqh sitelibdir\=./.gem.20250730-7976-o9fuqh install
-/usr/bin/install -c -m 0755 redcarpet.so ./.gem.20250730-7976-o9fuqh
+make DESTDIR\= sitearchdir\=./.gem.20250730-42187-64x9vy sitelibdir\=./.gem.20250730-42187-64x9vy install
+/usr/bin/install -c -m 0755 redcarpet.so ./.gem.20250730-42187-64x9vy
 
 current directory: /home/tea/Source/notes-app/vendor/bundle/ruby/3.4.0/gems/redcarpet-3.6.1/ext/redcarpet
-make DESTDIR\= sitearchdir\=./.gem.20250730-7976-o9fuqh sitelibdir\=./.gem.20250730-7976-o9fuqh clean
+make DESTDIR\= sitearchdir\=./.gem.20250730-42187-64x9vy sitelibdir\=./.gem.20250730-42187-64x9vy clean

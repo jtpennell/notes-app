@@ -5,12 +5,46 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
-    <%= stylesheet_link_tag "application" %>
+    <!-- Include Marked.js for Markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const titleInput = document.querySelector("textarea[name='note[title]']");
+    const bodyInput = document.getElementById("note_body");
+    const previewElement = document.getElementById("markdown-preview");
+
+    function updatePreview() {
+      const combinedMarkdown = `**Title:**\n\n ${titleInput.value}\n\n**Body:**\n\n${bodyInput.value}`;
+      try {
+        previewElement.innerHTML = marked.parse(combinedMarkdown);
+      } catch (error) {
+        console.error("Error rendering markdown:", error);
+        previewElement.textContent = "Error rendering markdown.";
+      }
+    }
+
+    if (titleInput && bodyInput && previewElement) {
+      titleInput.addEventListener("input", updatePreview);
+      bodyInput.addEventListener("input", updatePreview);
+      updatePreview(); // Initial render
+    } else {
+      console.warn("Markdown inputs or preview element not found.");
+    }
+  });
+</script>
+
+
+    <!-- Tailwind CSS -->
+    <%= stylesheet_link_tag "tailwind", "data-turbo-track": "reload" %>
+
+    <!-- Application CSS -->
+    <%= stylesheet_link_tag "application", media: "all" %>
   </head>
 
   <body>
-    <%= yield %>
+    <main class="container mx-auto mt-28 px-5 flex">
+      <%= yield %>
+    </main>
   </body>
 </html>
